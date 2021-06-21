@@ -2,10 +2,7 @@
 
 ## RUN Service
     docker-compose up -d
-    
-## Turn off service
-    docker-compose down
-    
+        
 ## Create_user
     localhost IP:5000
     
@@ -14,3 +11,6 @@
     
 ## Login
     localhost IP/login
+    
+## Turn off service
+    docker-compose down
