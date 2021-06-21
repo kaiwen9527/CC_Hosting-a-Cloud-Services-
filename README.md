@@ -1,3 +1,4 @@
 # CC_Hosting-a-Cloud-Services-
 
-121312
+##RUN Service
+    docker-compose up -d
