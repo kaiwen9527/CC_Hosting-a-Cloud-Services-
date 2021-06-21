@@ -2,3 +2,6 @@
 
 ## RUN Service
     docker-compose up -d
+    
+## Turn off service
+    docker-compose down
