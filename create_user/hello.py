@@ -22,10 +22,11 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 @app.route('/', methods=['GET'])
 def add_user():
     return '''
-    <form method="post">
-     Account  <input name="username" type="text" /><br/>
-     Password <input name="password" type="password" /><br/>
-     <input value="Add" type="submit" />
+    <form method="post",align="center">
+     <h2 align="center">Create_user</h2>
+     <p align="center">Account <input name="username" type="text" /><br/></p>
+     <p align="center">Password  <input name="password" type="password" /><br/></p>
+     <p align="center"><input value="Add" type="submit" /></p>
     </form>'''
 
 
