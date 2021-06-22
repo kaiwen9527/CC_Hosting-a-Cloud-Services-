@@ -40,9 +40,10 @@ def user_login():
 
   return '''
     <form method="post">
-     Accout<input name="username" type="text" /><br/>
-     Password<input name="password" type="password" /><br/>
-     <input value="Login" type="submit" />
+     <h2 align="center">Login</h2>
+     <p align="center">Accout<input name="username" type="text" /><br/></p>
+     <p align="center">Password<input name="password" type="password" /><br/></p>
+     <p align="center"><input value="Login" type="submit" /></p>
     </form>'''
 
 
