@@ -39,12 +39,6 @@ def create_user():
     else:
       return 'not found'
 
-#    res = dict()
-#    res['username_1'] = 'Alice'
-#    res['username_2'] = 'Bob'
-#    res['username_3'] = 'Cindy'
-#    res = make_response(jsonify(res), 200)
-
 
 @app.route('/')
 def index():
